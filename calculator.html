@@ -2,6 +2,7 @@
 function cube() {
  1
 var num = document.getElementById("n1");
+
 num.value = Math.pow(num.value, 3);
  }
  function sin() {
@@ -9,11 +10,20 @@ num.value = Math.pow(num.value, 3);
 var num = document.getElementById("n1");
 num.value = Math.sin(num.value);
  }
+function fourth() {
+ 1
+var num = document.getElementById("n1");
+num.value = Math.pow(num.value, 4); 
+}
 </script>
  </head>
   <body>
   	<h1>Calculadora de Laura Diaz Esteban</h1>
 Number:
 <input type="text" id="n1">
-<button onclick="cube()"> x^3 </button> </body>
+<button onclick="cube()"> x^3 </button> 
+<button onclick="fourth()"> x^4 </button> 
+<button onclick="sin()"> sin(x) </button> 
+
+</body>
 </html>
